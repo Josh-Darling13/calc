@@ -18,6 +18,10 @@ function Main(){
         setinputvalue(answer);
     }
 
+    function clear(){
+        setinputvalue('');
+    }
+
     return(
         <div className='container'>
             <div className ='row'>
@@ -26,7 +30,7 @@ function Main(){
                     <table className='table'>
                         <tr>
                         <td colSpan={3}><input type='text' value={inputvalue} /></td>
-                        <td><button onClick=''>
+                        <td><button onClick={()=>{clear()}}>
                                 C
                             </button></td>
                         </tr>

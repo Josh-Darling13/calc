@@ -48,6 +48,9 @@ table{
 input{
   width: 80%;
   border-radius: 15px;
+  color: white !important;
+  font-weight: bold;
+  font-size: larger;
 }
 
 tr{
