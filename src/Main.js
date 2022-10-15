@@ -69,16 +69,16 @@ function Main(){
                             </button></td>
                         </tr>
                         <tr>
-                            <td><button onClick={()=>{display('')}}>
+                            <td><button onClick={()=>{display('.')}}>
                                 .
                             </button></td>
                             <td><button onClick={()=>{display('0')}}>
                                 0
                             </button></td>
-                            <td><button onClick={()=>{display('')}}>
+                            <td><button onClick={()=>{display('=')}}>
                                 =
                             </button></td>
-                            <td><button onClick={()=>{display('')}}>
+                            <td><button onClick={()=>{display('*')}}>
                                 *
                             </button></td>
                         </tr>
