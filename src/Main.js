@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 function Main(){
 
     return(
-        <div className ='row justify-content-center'>
+        <div className ='row'>
             <div className='.col-md-5'>
                 <h1>project title or whatever</h1>
                 <table className='table'>
