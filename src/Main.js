@@ -13,8 +13,9 @@ function Main(){
         setinputvalue(inputvalue + value)
     }
 
-    function calculate(value){
-
+    function calculate(){
+        let answer = eval(inputvalue);
+        setinputvalue(answer);
     }
 
     return(
@@ -78,7 +79,7 @@ function Main(){
                             <td><button onClick={()=>{display('0')}}>
                                 0
                             </button></td>
-                            <td><button onClick={()=>{calculate('=')}}>
+                            <td><button onClick={()=>{calculate()}}>
                                 =
                             </button></td>
                             <td><button onClick={()=>{display('*')}}>
