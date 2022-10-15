@@ -7,7 +7,7 @@ function Main(){
         <div className ='row justify-content-center'>
             <div className='.col-md-5'>
                 <h1>project title or whatever</h1>
-                <table>
+                <table className='table'>
                     <tr>
                         <input type='text'/>
                         <button>
@@ -18,15 +18,12 @@ function Main(){
                         <button>
                             1
                         </button>
-
                         <button>
                             2
                         </button>
-
                         <button>
                             3
                         </button>
-
                         <button>
                             /
                         </button>
@@ -35,15 +32,12 @@ function Main(){
                         <button>
                             4
                         </button>
-
                         <button>
                             5
                         </button>
-
                         <button>
                             6
                         </button>
-
                         <button>
                             -
                         </button>
@@ -52,15 +46,12 @@ function Main(){
                         <button>
                             7
                         </button>
-
                         <button>
                             8
                         </button>
-
                         <button>
                             9
                         </button>
-
                         <button>
                             +
                         </button>
@@ -69,15 +60,12 @@ function Main(){
                         <button>
                             .
                         </button>
-
                         <button>
                             0
                         </button>
-
                         <button>
                             =
                         </button>
-
                         <button>
                             *
                         </button>
@@ -85,9 +73,7 @@ function Main(){
                 </table>
             </div>
         </div>
-
     )
-
 }
 
 export default Main
