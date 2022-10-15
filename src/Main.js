@@ -11,6 +11,9 @@ function Main(){
          * the text window
          */
         setinputvalue(inputvalue + value)
+    }
+
+    function calculate(value){
 
     }
 
@@ -75,7 +78,7 @@ function Main(){
                             <td><button onClick={()=>{display('0')}}>
                                 0
                             </button></td>
-                            <td><button onClick={()=>{display('=')}}>
+                            <td><button onClick={()=>{calculate('=')}}>
                                 =
                             </button></td>
                             <td><button onClick={()=>{display('*')}}>
