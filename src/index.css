@@ -15,17 +15,62 @@ code {
     monospace;
 }
 
+
+
 .row{
+
   display: flex;
   align-content: center;
   justify-content: center;
+  margin: 3em, 6em, 0, 3em;
+  padding: 3em;
 }
 
 h1{
   color: antiquewhite;
 }
 
+.container{
+  padding: 100px;
+}
+
+table{
+    padding: 3em;
+    margin: 1em;
+    background-image: linear-gradient(to bottom, red, #000000 100%);
+    border-radius: 20px;
+  }
+
 .col-md-5{
   margin-top: 250px !important;
 }
 
+input{
+  width: 80%;
+  border-radius: 15px;
+}
+
+tr{
+  padding: 3rem;
+  margin: 1.5rem;
+  border: none;
+}
+
+td{
+  padding: .3rem;
+  margin: .4rem;
+  border: none;
+}
+
+button{
+  color:   lime !important;
+  width: 100% !important;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover{
+  color: antiquewhite !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
